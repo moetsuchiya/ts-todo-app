@@ -1,8 +1,9 @@
 
+// src/type.ts
 export type Task = {
-    id: number;
-    name: string;
-    isDone: boolean;
+  id: number;
+  name: string;
+  isDone: boolean;
 };
 
 export type FilterType = "ALL" | "TODO" | "DONE";
